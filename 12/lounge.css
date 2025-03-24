@@ -1,16 +1,70 @@
 p {
-  /*字体颜色:茶红色 */
+  /* 字体颜色: 茶红色 */
   color: maroon;
 }
-
-h1,h2 {
+h1, h2 {
+  /* 字体族为Segoe Script */
   font-family: 'Segoe Script';
-  color:grey;
+  /* 字体颜色为灰色 */
+  color: grey;
 }
 
+/* 设置一级标题样式 */
 h1 {
-  border-bottom: 1px solid black;
+  /* 标题底部添加一条1px宽的紫色实线边框 */
+  border-bottom: 1px solid rgb(216, 69, 184);
 }
+
+/* 设置正文样式 */
 body {
+  /* 字体族为Cascadia Mono */
   font-family: "Cascadia Mono";
 }
+
+/* 再次设置段落样式 */
+p {
+  /* 注释掉的字体族设置 */
+  /* font-family: 'Segoe Script'; */
+  /* 字体颜色为茶红色 */
+  color: maroon;
+  /* 字体大小为视口宽度的2% */
+  font-size: 2vw;
+}
+
+/* 再次设置一级标题和二级标题的通用样式 */
+h1, h2 {
+  /* 字体族为Cascadia Mono */
+  font-family: "Cascadia Mono";
+  /* 字体颜色为灰色 */
+  color: gray;
+  /* 注释掉的标题底部边框设置 */
+  /* border-bottom: 1px solid black; */
+  /* 字体大小为1.4rem */
+  font-size: 1.4rem;
+}
+
+/* 再次设置一级标题样式 */
+h1 {
+  /* 字体大小为2rem */
+  font-size: 2rem;
+  /* 标题底部添加一条1px宽的绿色实线边框 */
+  border-bottom: 1px solid rgb(80, 206, 122);
+}
+
+/* 再次设置正文样式 */
+body {
+  /* 字体族为Segoe Script */
+  font-family: 'Segoe Script';
+}
+
+/* 设置HTML根元素的字体大小 */
+html {
+  /* 字体大小为20px */
+  font-size: 20px;
+}
+body{
+	color: royalblue;
+	color: rgb(239, 130, 160);
+	color: #ec4e8a;
+	color: rgba(230, 153, 233, 0.8);
+	color: #d13c74;
