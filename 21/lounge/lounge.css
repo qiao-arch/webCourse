@@ -53,6 +53,7 @@ p,body,h1 {
   background-image: url(images/cocktail.gif);
   background-repeat: repeat-x;
   text-align: center;
+  float:right;
 }
 .cd {
 	display: inline-block;
@@ -82,4 +83,14 @@ a:visited {
 /* 悬停状态 */
 a:hover {
   color: rgb(131, 228, 123);
+}
+.left {
+  margin-right: 10px;
+}
+.right {
+  margin-left: 20px;
+}
+.ruler {
+  display: inline-block;
+  width: 30px;
 }

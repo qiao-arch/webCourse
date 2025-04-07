@@ -83,3 +83,21 @@ a:visited {
 a:hover {
   color: rgb(131, 228, 123);
 }
+h1, h2 {
+  font-weight: 600;
+}
+  h1 {
+    font-weight: 200;
+  }
+  .test{
+    color: red;
+  }
+  .green-font{
+    color: green;
+  }
+  .red-font{
+    color: red;
+  }
+  .blue-font{
+    color: blue;
+  }
