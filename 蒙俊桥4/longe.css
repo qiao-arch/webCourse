@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('背景图.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.top-left-text {
+    position: absolute;
+    top: 80px;
+    left: 30px;
+    color: rgb(78, 73, 73); 
+    font-size: 16px;
+}
+
+.photo-container {
+    display: flex;
+    padding: 0 20px; /* 第一张图片与背景图左边距 20px，第四张图片与背景图右边距 20px */
+    gap: 10px; /* 每张图片之间的距离为 10px */
+    width: 100%;
+    top: 30px;
+    box-sizing: border-box;
+    color: white;
+}
+
+.photo-container img {
+    flex: 1; /* 让每张图片平均分配容器的宽度 */
+    height: auto; /* 保持图片的纵横比 */
+    object-fit: contain; /* 确保图片完整显示在容器内 */
+}
+.center-text {
+    color: white;
+}
+.top-right-text {
+     color: rgb(80, 75, 75);
+     position: absolute;
+     top: 80px;
+     right: 30px;
+     font-size: 16px;
+}
+
+.image-wrapper img {
+    width: 219px; /* 设置图片宽度为 219px */
+    height: 390px; /* 设置图片高度为 390px */
+    object-fit: cover; /* 保持图片比例并覆盖容器 */
+}
